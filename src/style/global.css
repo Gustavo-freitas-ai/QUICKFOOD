@@ -1,0 +1,37 @@
+*{
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    list-style-type: none;
+    background: none;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
+
+:root   {
+    --color-grey: #000000;
+    --color-primary: #00A000;
+    --color-black: #000001;
+    --color-grey2: #999999;
+    --color-white: #FFFFFF;
+    --color-bg-overlay: #FAFAFA;
+
+    --font-size-hi: 60px;
+    --font-size-h2: 48px;
+    --font-size-h3: 28px;
+    --font-size-body-1: 18px;
+    --font-weight-body-1: 400;
+    --font-size-button: 18px;
+    --font-weight-button: 700;
+}
